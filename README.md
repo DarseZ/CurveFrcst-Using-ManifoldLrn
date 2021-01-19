@@ -27,3 +27,14 @@ Start from ARIMA family models, then add Kalman filter or more general state spa
 
 Files:
 
+Paper:
+Chen,Deng,Huo.pdf: Electricity Price Curve Modeling and Forecasting by Manifold Learning
+Gurkaynak,Sack,Wright.pdf: The U.S. Treasury Yield Curve: 1961 to the Present 
+Huo,Ni,Smith.pdf: A Survey of Manifold-Based Learning Methods 
+
+Dataset:
+WklyLIBOR.xlsx
+WklySOFR.xlsx
+feds200628.csv:
+
+Source Code:
