@@ -10,9 +10,10 @@ In this project, we implement a nonparametric approach for modeling curves in th
 Data  
 
 US Treasury Zero Yield Curve; US Treasury Forward Rate Curve;  
-US 3m LIBOR/Swap Zero Yield Curve; US 3m LIBOR/Swap Forward Rate Curve;  
+US 3m LIBOR/Swap Zero Yield Curve; US 3m LIBOR/Swap Forward Rate Curve;
 3m SOFR Zero Yield Curve; 3m SOFR Forward Rate Curve;  
-
+USD OIS Zero Curve; USD OIS Forward Curve;
+ 
 Problem formulation and Application  
 
 Fetching or bootstrapping curves if necessary.  
@@ -29,6 +30,7 @@ Gurkaynak,Sack,Wright.pdf: The U.S. Treasury Yield Curve: 1961 to the Present
 Huo,Ni,Smith.pdf: A Survey of Manifold-Based Learning Methods  
 
 Dataset:  
+WklyOIS.xlsx 
 WklyLIBOR.xlsx  
 WklySOFR.xlsx  
 feds200628.csv  
