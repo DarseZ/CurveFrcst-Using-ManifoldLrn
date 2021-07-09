@@ -49,6 +49,9 @@ Problem formulation
 (3) Mapping back to the original space  
 (4) Performance evaluation    
 
+Report:  
+Submission to INFORMS finance best student paper -- Template_for_Management_Science_Journal.pdf  
+
 Paper:  
 [1] Chen J, Deng S J, Huo X. Electricity price curve modeling and forecasting by manifold learning. IEEE
 Transactions on Power Systems, 2008, 23(3): 877-888.  
