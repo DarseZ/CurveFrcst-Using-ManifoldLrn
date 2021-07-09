@@ -11,10 +11,12 @@ Data
 
 The following dataset are stored in corresponding .xlsx files. The current experiement is based on the period 2018.10 - 2020.10. New data will be kept adding.  
 Original:  
-Parameters of Treasury Term Structure Models-- feds200628.xlsx, feds200628_till210319.xlsx;  
+Parameters of Treasury Term Structure Models -- feds200628_till210319.xlsx;  
 US 3m LIBOR/Swap Zero+Forward Yield Curve -- WklyLIBOR.xlsx;  
 3m SOFR Zero+Forward Yield Curve -- WklySOFR.xlsx;    
-USD OIS Zero+Forward Curve -- WklyOIS.xlsx;  
+USD OIS Zero+Forward Curve -- WklyOIS.xlsx;
+fed funds rate time series -- FFR_daily;
+1yr breakeven inflation rate time series -- inflation_daily;
 Cleaned:  
 US Treasury Zero Yield Curve -- Treasury_clean.xlsx;  
 US 3m LIBOR/Swap Zero Yield Curve --LIBOR_clean.xlsx;  
@@ -32,6 +34,13 @@ DmnsRdct_StateFrcst.ipynb:
 (3) Randomness test for univariate low-dim embedding  
 (4) Implementation of LLE transform and inverse-transform  
 (5) Backtesting engine for systematic trading strategies using PCA+ARMA and LLE+ARMA models  
+NumerExperim.ipynb:  
+(1) Calculate credit risk premium 3m LIBOR- 3m SOFR, liquidity risk premium EFFR – inflation  
+(2) Regress swap spd on the two risk factors for each tenor    
+(3) Simulate the residual as O-U process for each tenor    
+(4) Recover the simlulated swap spd curve    
+(5) Run multi-stage forecasting framework for swap spd curve from script 2    
+
 
 Problem formulation  
 
